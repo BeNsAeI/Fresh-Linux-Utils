@@ -65,6 +65,8 @@ pip3 install torchvision
 echo ""
 echo "___"
 echo "Installing graphics..."
+pip install PyOpenGL PyOpenGL_accelerate
+pip3 install PyOpenGL PyOpenGL_accelerate
 sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 sudo apt install glew-utils libglew-dev libglew2.0
 sudo apt install libglfw3 libglfw3-dev
